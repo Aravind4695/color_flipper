@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(196, 76, 76);
+    position: relative;
+}
+h2,h3{
+    font-size: 2em;
+    color: navy;
+    margin: 15px;
+}
+button{
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: white;
+    border: blueviolet;
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+    
+}
+.container{
+    height: calc(100vh - 69px);
+}
